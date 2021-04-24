@@ -5,17 +5,132 @@
 
 body {
     margin: 0px;
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 header, section {
-    padding: 20px;
+    padding-left: 40px;
+    margin-left: 20px;
 }
+
+header, h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
 p, li {
     line-height: 1.5em;
 }
 
+h1 {
+    
+    font-weight: 500;
+}
+
+#orange {
+    color:#ffa02b;
+    font-weight: bold;
+}
+
 #inspiration {
-    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffa02b;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin-top: 40px;
+    color:white;
+    margin-left: 0px;
+}
+
+.links {
+    color: white;
+    display: inline;
+}
+
+main {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: .75fr .75fr 1fr;
+    grid-template-areas:
+      "a"
+      "b"
+      "c";
+    min-height: 100vh;
+    
+}
+
+.card {
+    background-color:#fce3bb;
+    padding:30px;
+    margin-top: 8px;
+    margin-right: 12px;
+    text-align:center;
+    font-weight: bold;
+    border-radius: 15px;
+    color: #ffa02b;
+
+    
+}
+
+.mini-card {
+    background-color: white;
+    padding:10px;
+    margin: 10px;
+    font-weight: normal;
+    font-size: small;
+    border-radius: 15px;
+    color: black;
+}
+
+#tutorials {
+    grid-area: a;
+}
+
+#links-tutorial {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin: auto;
+}
+
+#homework {
+    grid-area: b;
+}
+
+#links-homework {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+#inspiration {
+    grid-area: c;
+}
+
+a {
+    text-decoration: none;
+    color: #ffa02b;
+}
+
+
+a:hover {
+    text-decoration:double;
+    color: black;
+}
+
+#tutorials .card:hover {
+    opacity: 60%;
+    text-decoration:double;
+    color: #ff8000;
+}
+
+
+#inspiration a{
+    color: white;
+    font-size: .95em;
+    margin: 4px;
+}
+
+#inspiration a:hover{
+    color: black;
 }
