@@ -50,7 +50,7 @@ main {
     display: grid;
     grid-gap: 0px;
     grid-template-columns: 1fr;
-    grid-template-rows: .75fr .75fr 1fr;
+    grid-template-rows: .6fr .6fr 1fr;
     grid-template-areas:
       "a"
       "b"
@@ -84,6 +84,7 @@ main {
 
 #tutorials {
     grid-area: a;
+    margin-top: 10px;
 }
 
 #links-tutorial {
@@ -95,6 +96,8 @@ main {
 
 #homework {
     grid-area: b;
+    margin-bottom: 10px;
+
 }
 
 #links-homework {
