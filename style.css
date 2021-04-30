@@ -26,14 +26,14 @@ h1 {
 }
 
 #orange {
-    color:#ffa02b;
+    color:#74a8a7;
     font-weight: bold;
 }
 
 #inspiration {
     display: flex;
     flex-direction: column;
-    background-color: #ffa02b;
+    background-color: #74a8a7;
     padding-top: 40px;
     padding-bottom: 40px;
     margin-top: 40px;
@@ -60,14 +60,14 @@ main {
 }
 
 .card {
-    background-color:#fce3bb;
+    background-color:#bfe0df;
     padding:30px;
     margin-top: 8px;
     margin-right: 12px;
     text-align:center;
     font-weight: bold;
     border-radius: 15px;
-    color: #ffa02b;
+    color: #74a8a7;
 
     
 }
@@ -112,7 +112,7 @@ main {
 
 a {
     text-decoration: none;
-    color: #ffa02b;
+    color: #74a8a7;
 }
 
 
@@ -124,7 +124,7 @@ a:hover {
 #tutorials .card:hover {
     opacity: 60%;
     text-decoration:double;
-    color: #ff8000;
+    color: #74a8a7;
 }
 
 
