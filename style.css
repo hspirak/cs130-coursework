@@ -68,6 +68,7 @@ main {
     font-weight: bold;
     border-radius: 15px;
     color: #74a8a7;
+    height: 100%;
 
     
 }
@@ -80,6 +81,13 @@ main {
     font-size: small;
     border-radius: 15px;
     color: black;
+}
+
+#hw02:hover {
+    opacity: 60%;
+    text-decoration:double;
+    color: #74a8a7;
+
 }
 
 #tutorials {
