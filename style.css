@@ -83,7 +83,7 @@ main {
     color: black;
 }
 
-#hw02:hover {
+#hw02:hover, #hw03:hover {
     opacity: 60%;
     text-decoration:double;
     color: #74a8a7;
